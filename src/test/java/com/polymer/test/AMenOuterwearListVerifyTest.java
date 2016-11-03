@@ -11,10 +11,10 @@ public class AMenOuterwearListVerifyTest extends TestBase {
 
   @Test
   public void verifyListOfItems()  throws InterruptedException {
-	openHomePage();
-    openMensOutwearPage();
-    verifyNameofList(); 
-	verifyListOfMensItem();
+	  openHomePage();
+          openMensOutwearPage();
+          verifyNameofList(); 
+	  verifyListOfMensItem();
 	  }
 
 
