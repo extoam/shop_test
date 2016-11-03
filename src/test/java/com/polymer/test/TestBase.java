@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class TestBase {
-	private static WebDriver driver;
+	  private static WebDriver driver;
 	  private  static String baseUrl;
 	  private static StringBuffer verificationErrors = new StringBuffer();
 
@@ -241,7 +241,6 @@ protected void addLadiesItemToCart() throws InterruptedException {
 	 Thread.sleep(2000);
 }
 
-
 protected void   verifyLadiesItemInCart() throws InterruptedException {
 	driver.findElement(By.id("viewCartAnchor")).click();
 	driver.findElement(By.xpath("/html/body/shop-app/shop-cart-modal/div[2]/shop-button[1]/a")).click();
@@ -277,7 +276,6 @@ protected void openTShirtPage() throws InterruptedException {
     driver.findElement(By.linkText("Men's T-Shirts")).click();
 	Thread.sleep(2000);
 }
-
 
 protected void finishCheckOut() throws InterruptedException {
 	driver.findElement(By.cssSelector("shop-checkout.style-scope.shop-app.iron-selected.x-scope.shop-checkout-0 div.main-frame.style-scope.shop-checkout iron-pages.style-scope.shop-checkout header.style-scope.shop-checkout.iron-selected shop-button.style-scope.shop-checkout a.style-scope.shop-checkout")).click();
@@ -320,6 +318,7 @@ protected void openCheckout() throws InterruptedException {
 	driver.findElement(By.cssSelector("html body shop-app.x-scope.shop-app-0 iron-pages.style-scope.shop-app shop-cart.style-scope.shop-app.x-scope.shop-cart-0.iron-selected div.main-frame.style-scope.shop-cart div.subsection.style-scope.shop-cart div.checkout-box.style-scope.shop-cart shop-button.style-scope.shop-cart a.style-scope.shop-cart")).click();
 	Thread.sleep(2000);
 }
+
 protected void openTheCart() throws InterruptedException {
 
 	
