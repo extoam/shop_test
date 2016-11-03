@@ -9,8 +9,8 @@ public class CAddItemsToCartTest  extends TestBase {
 	
 	public void addItemsToTheCart()  throws InterruptedException {
 		
-		openHomePage();
-		openLadiesOuterwearPage();
+	    openHomePage();
+	    openLadiesOuterwearPage();
 	    openItemForDetails();
 	    addLadiesItemToCart();
 	    verifyLadiesItemInCart();
