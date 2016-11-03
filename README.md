@@ -1,4 +1,4 @@
-Selenium Automated test suite for the following site: https://shop.polymerproject.org/
+Selenium Automated test suite for the  site: https://shop.polymerproject.org/
 Test Suite includes following test cases:
 - Click on the home page the “Men’s outerwear” and verify the list of items
 - Click on the home page the “Ladies outerwear” and verify the list of items
